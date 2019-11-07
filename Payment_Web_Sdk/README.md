@@ -215,11 +215,10 @@ ANDROID
 #### Web redirect merchant Android SDK with otp reading ability
 1. To access this feature upgrade to latest sdk via following gradle dependency in build.gradle file:
 	```
-	compile('com.paytm:pgplussdk:*.*.*') {
+	compile('com.paytm:pgplussdk:1.4.3') {
 		transitive = true;
 	}
 	```
-	#### \*Note: Our latest SDK is 1.3.3
 
 2. To access OTP reading feature one must have SMS permission:
 	
@@ -274,9 +273,8 @@ We are not supporting PgSdk jar from now onwards. Kindly use the below mentioned
 
 Gradle Dependency:
 
-Command : `compile 'com.paytm:pgplussdk:*.*.*'`
+Command : `compile 'com.paytm:pgplussdk:1.4.3'`
 
-#### \*Note: Our latest SDK is 1.3.3
 
 Note:
 1. If you have the Jar file please Remove the jar file and jar dependency from the project.
